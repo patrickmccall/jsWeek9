@@ -30,11 +30,11 @@ so lets disable this feature so our CSS takes care of it -->
 
 
 <!--    UNCOMMENT THIS SO WE CAN LINK TO THE JQUERY MOBILE FRAMEWORK -->
-<!-- <link rel="stylesheet" href="assets/themes/my-custom-theme.min.css" />
+ <link rel="stylesheet" href="assets/themes/my-custom-theme.min.css" />
 <link rel="stylesheet" href="assets/themes/jquery.mobile.icons.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
 
 
 <title>Artists in History :: Mobile Site</title>
@@ -66,12 +66,12 @@ so lets disable this feature so our CSS takes care of it -->
 </style>
 </head>
 <body>
-<div>
-	<div >     
+<div data-role="page">
+	<div data-role="header">     
 		<h1>Artists in History</h1>
 	</div>
 
-	<div>
+	<div data-role="content">
 		<ul>
 
 			<li>
@@ -101,7 +101,7 @@ so lets disable this feature so our CSS takes care of it -->
 				<a href="#">info</a>
 			</li>
 		</ul>
-</div>
+</div> <!--closing page-->
 
 	<div>
 		<p>first page footer</p>

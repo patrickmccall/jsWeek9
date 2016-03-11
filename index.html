@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -8,7 +8,13 @@
 <!-- <link href="css/large.css" rel="stylesheet" type="text/css" /> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"> </script>
-
+  <script>
+    var mobile = (
+    /iphone|ipad|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile){
+      document.location = "artists_in_history.html"
+    }
+  </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="css/mobile.css" type="text/css" rel="stylesheet" 

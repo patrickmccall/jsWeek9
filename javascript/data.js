@@ -1,7 +1,7 @@
 	
 	var artistObj = {};
 	
-	artists = {
+	artistObj = {
 		artist1 : {
 			link : "http://hoist1138.com/jacques-louis-david.html",
 			img : "assets/images/artists/jacques-louis-david.png",
@@ -9,7 +9,7 @@
 			years : "1748 - 1845"
 		},
 		artist2 : {
-			link : "//hoist1138.com/orazio-gentileschi.html",
+			link : "http://hoist1138.com/orazio-gentileschi.html",
 			img : "assets/images/artists/orazio-gentileschi.png",
 			fullName : "Orazio Gentileschi",
 			years : "1563 - 1639"
@@ -20,13 +20,13 @@
 			fullName : "Bob Ross",
 			years : "1942 - 1995"
 		},artist4 : {
-			link : "//hoist1138.com/pablo-picasso.html",
+			link : "http://hoist1138.com/pablo-picasso.html",
 			img : "assets/images/artists/pablo-picasso.png",
 			fullName : "Pablo Picasso ",
 			years : "1881 - 1973"
 		},
 		artist5 : {
-			link : "hoist1138.com/vincent-van-gogh.html",
+			link : "http://hoist1138.com/vincent-van-gogh.html",
 			img : "assets/images/artists/jacques-louis-david.png",
 			fullName : "Jacques-Louis David",
 			years : "1853 - 1890"
@@ -50,13 +50,13 @@
 			years : "1917 - 2010"
 		},
 		artist9 : {
-			link : "hoist1138.com/norman-rockwell.html",
-			img : "images/artists/norman-rockwell.png",
+		    link: "http://hoist1138.com/norman-rockwell.html",
+			img : "assets/images/artists/norman-rockwell.png",
 			fullName : "Norman Rockwell",
 			years : "1894 - 1978"
 		},
 		artist10 : {
-			link : "//hoist1138.com//michelangelo-merisi-da-caravaggio.html",
+		    link: "http://hoist1138.com//michelangelo-merisi-da-caravaggio.html",
 			img : "assets/images/artists/caravaggio.png",
 			fullName : "Michelangelo Merisi da Caravaggio",
 			years : "1571 - 1610"
